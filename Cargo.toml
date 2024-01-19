@@ -1,0 +1,3 @@
+[workspace]
+members = ["vrms-cli", "vrms-lib"]
+resolver = "2"
