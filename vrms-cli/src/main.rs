@@ -1,7 +1,7 @@
-use clap::{Arg,ArgAction,Command};
+use clap::{Arg, ArgAction, Command};
 use std::error::Error;
 use tokio;
-use vrms_lib::archlinux::list_installed;
+use vrms_lib::list_installed;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
